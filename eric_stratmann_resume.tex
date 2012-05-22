@@ -1,0 +1,75 @@
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{hyperref}
+\setlength{\textheight}{11.5in} % increase text height to fit on 1-page 
+\topmargin -0.7in
+\oddsidemargin -0.3in
+\begin{document} 
+
+\name{Eric Stratmann\\[11pt]}
+
+\address{\bf 144 Ayrshire Farm Ln Apt \#103\\Stanford, CA 94305\\estrat@cs.stanford.edu\\(203) 645-9982\\\url{http://github.com/ericstratmann}}
+\address{}
+                                  
+\begin{resume}
+  
+\section{EDUCATION}          
+Stanford University (2008 - Present) \\
+Master of Science (2011) \\
+PhD Candidate (2008 - Present)\\
+Advisor: John Ousterhout \\
+Area of Research: Web Frameworks\\
+\\
+Simon's Rock College of Bard (2005-2008)\\
+Bachelor of Arts, magna cum laude (3.53 GPA)\\
+Majors: Computer Science (3.89 GPA) and Mathematics (3.67 GPA)
+
+\section{TECHNICAL EXPERIENCE}
+
+Research on Django extensions at Stanford (2011 - 2012)
+\begin{itemize}
+    \item { Currently developing a Django module that allows developers to add undo functionality to their Website. It hooks into the Model class to save undo information into a generic undo log class, allowing out of order undo. }
+    \item { Wrote a Django module allowing developers to easily support server-side push using MVC.}
+\end{itemize}
+
+Fiz, a web framework developed at Stanford. (2009 - 2011)
+\begin{itemize}
+    \item Fiz was a framework that aimed to raise  the level of web application programming by using a component based approach.
+    \item Worked on layout, data management, and different components.
+    \item Wrote code in Java and Javascript and wrote unit tests for all code.
+\end{itemize}
+
+Samsung: R\&D Intern (Summer 2010)
+\begin{itemize}
+    \item Developed a Javascript framework and API to automatically synchronize HTML5 localStorage to the cloud with node.js.
+\end{itemize}
+
+AlamoFS: A Versioning File System with Support for Non-linear History (2007-2008)
+\begin{itemize}
+    \item Senior thesis with Honors, Simon's Rock College.
+    \item Wrote a userland file system incorporating several concepts from revision control systems. The file system would automatically keep a version for every modification made to a file and kept track of several branches that users could create.
+\end{itemize}
+
+Microsoft: Software Development Engineer Intern (Summer 2007)
+\begin{itemize}
+    \item Researched and implemented features for Microsoft Forefront, an enterprise level security product.
+    \item Wrote code and tests in C++.
+\end{itemize}
+
+\section{PUBLICATIONS}          
+
+Stratmann, E., Ousterhout, J., and Sammer, M. \emph{Integrating Long Polling With an MVC Framework}. USENIX Conference on Web Application Development, June 2011.
+
+Ousterhout, J. and Stratmann, E. \emph{Managing State for Ajax-Driven Web Components}. USENIX \mbox{Conference} on Web Application Development, June 2010.
+
+Ousterhout, J. et al. \emph{The Case for RAMClouds: Scalable High-Performance Storage Entirely in DRAM}. SIGOPS Operating Systems Review, Vol. 43, No. 4, December 2009.
+
+\section{OTHER EMPLOYMENT}
+Stanford (Winter 2008, Spring 2012): TA for CS140 (Operating Systems) and CS142 (Web Applications) \\
+AXA Equitable (Summer 2006): IT Intern \\
+Simon's Rock College (September 2005 - May 2007): Computer Assistant
+\end{resume}
+\end{document}
